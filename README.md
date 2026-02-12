@@ -214,12 +214,7 @@ Every push to the `main` branch automatically:
 ### Infrastructure as Code
 ![Terraform Resources](docs/screenshots/terraform-state.png)
 *15+ AWS resources managed with Terraform*
-```
 
----
-
-## 💼 Your Resume Bullet Points (Copy-Paste Ready)
-```
 AWS DevOps Pipeline | GitHub: github.com/Sandesh4066/aws-devops-pipeline
 
 - Designed and deployed a production-grade containerized web application on AWS using 
