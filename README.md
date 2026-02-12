@@ -195,13 +195,48 @@ Every push to the `main` branch automatically:
 - [ ] Implement blue-green deployments
 - [ ] Add cost optimization tags and budget alerts
 
-## 📝 License
+## 📸 Project Demonstration
 
-This project is open source and available for educational purposes.
+### Live Application
+![Live Application](docs/screenshots/live-app.png)
 
-## 👤 Author
+### AWS Infrastructure
+![ECS Cluster](docs/screenshots/ecs-cluster.png)
+*ECS Fargate cluster running 2 containerized instances*
 
-**Sandesh**
+![ECR Repository](docs/screenshots/ecr-repository.png)
+*Docker images stored in Amazon ECR*
+
+### CI/CD Pipeline
+![GitHub Actions](docs/screenshots/github-actions.png)
+*Automated deployment pipeline using GitHub Actions*
+
+### Infrastructure as Code
+![Terraform Resources](docs/screenshots/terraform-state.png)
+*15+ AWS resources managed with Terraform*
+```
+
+---
+
+## 💼 Your Resume Bullet Points (Copy-Paste Ready)
+```
+AWS DevOps Pipeline | GitHub: github.com/Sandesh4066/aws-devops-pipeline
+
+- Designed and deployed a production-grade containerized web application on AWS using 
+  Infrastructure as Code (Terraform), provisioning 15+ cloud resources including VPC, 
+  ECS Fargate, ECR, IAM roles, security groups, and CloudWatch logging
+
+- Built a fully automated CI/CD pipeline using GitHub Actions that triggers on code commits, 
+  builds Docker images, pushes to Amazon ECR, and deploys to ECS with zero downtime
+
+- Implemented AWS best practices including multi-AZ deployment, least-privilege IAM policies, 
+  security group rules, and centralized logging for production-ready infrastructure
+
+- Demonstrated proficiency in containerization (Docker), orchestration (ECS Fargate), 
+  infrastructure automation (Terraform), and DevOps workflows (GitOps, CI/CD)
+
+Technologies: AWS (ECS, ECR, VPC, IAM, CloudWatch), Terraform, Docker, GitHub Actions, 
+Nginx, Git, AWS CLI
 - GitHub: [@Sandesh4066](https://github.com/Sandesh4066)
 
 ---
